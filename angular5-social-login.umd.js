@@ -335,8 +335,8 @@ var FacebookLoginProvider = (function (_super) {
         user.name = response.name;
         user.email = response.email;
         user.token = response.token;
-        user.first_name = response.first_name;
-        user.last_name = response.last_name;
+        user.firstName = response.first_name;
+        user.lastName = response.last_name;
         user.image = 'https://graph.facebook.com/' + response.id + '/picture?type=normal';
         return user;
     };
